@@ -3,6 +3,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
+h2, h3, h4, h5, h6, {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+p, ol, ul {
+  font-family: 'Raleway', sans-serif;
+  font-size: '12px';
 }
