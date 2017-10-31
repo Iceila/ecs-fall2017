@@ -22,10 +22,3 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
 .pagebar {
   margin: 30px 40px 20px 40px;
 }
-
-.background-exercises {
-  font-weight: bold;
-  font-size: '18px';
-  border: 4px black;
-  padding: 10px;
-}
