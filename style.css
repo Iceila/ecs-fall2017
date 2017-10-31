@@ -27,5 +27,5 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
   border: 4px black;
   border-style: solid;
   padding: 15px;
-  font-colof: 18px;
+  font: 18px;
 }
