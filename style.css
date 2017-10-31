@@ -24,8 +24,7 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
 }
 
 .background-exercises {
-  border: 4px black;
-  border-style: solid;
+  border: 4px black solid;
   padding: 30px;
   font-size: 120%;
   font-style: uppercase bold;
