@@ -15,6 +15,6 @@ p, ol, ul, blockquote, bdo {
   font-size: '12px';
 }
 
-.pagebar, p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote {
+.pagebar, p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
   margin: 10px 40px;
 }
