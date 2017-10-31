@@ -16,5 +16,5 @@ p, ol, ul, blockquote {
 }
 
 .pagebar, p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote {
-  margin: 40px;
+  margin: 40px 10px;
 }
