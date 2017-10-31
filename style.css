@@ -10,13 +10,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
-ol, ul, blockquote {
+p, ol, ul, blockquote {
   font-family: 'Raleway', sans-serif;
   font-size: '12px';
 }
 
-p {
-  font-family: 'Raleway', sans-serif;
-  font-size: '12px';
-  margin: 20px;
+p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote {
+  margin: 40px;
 }
