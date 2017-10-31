@@ -30,3 +30,11 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
   font-style: uppercase bold;
   background-image: url("/images/holy-spirit-sky-banner.jpg");
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
