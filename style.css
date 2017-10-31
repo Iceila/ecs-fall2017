@@ -28,4 +28,5 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
   border-color: white;
   border: 3px;
   padding: 10px;
+  color: white;
 }
