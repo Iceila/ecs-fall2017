@@ -24,8 +24,8 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo {
 }
 
 .background-exercise {
-  background-image: url("/images/holy-spirit-sky-banner.jpg");
-  color: white;
   font-weight: bold;
   font-size: '18px';
+  border: 4px black;
+  padding: 10px;
 }
