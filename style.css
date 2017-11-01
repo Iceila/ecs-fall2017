@@ -37,6 +37,6 @@ table, th, td {
     padding: 10px;
 }
 
-td {
+td, caption {
   text-align: center;
 }
