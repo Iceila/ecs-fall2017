@@ -8,15 +8,15 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body *:not(h1, h2, h3, h4, h5, h6) {
+p, ol, ul, blockquote, bdo, table, caption {
   font-family: 'Raleway', sans-serif;
   font-size: '12px';
 }
 
-body *:not(.pagebar, h1, h2, h3, h4, h5 ,h6) {
+p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, caption {
   margin: 10px 40px;
 }
 
