@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 
 a {
-  color: white;
+  color: black;
   font-style: normal;
-  text-decoration:none
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
-p, ol, ul, blockquote, bdo, table, caption {
+* {
   font-family: 'Raleway', sans-serif;
   font-size: '12px';
 }
 
-p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, caption {
+* {
   margin: 10px 40px;
 }
 
@@ -41,29 +41,4 @@ table, th, td {
 
 td, caption {
   text-align: center;
-}
-
-ul.pagebar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  display: inline;
-}
-
-li.pagebar {
-  float: left;
-}
-
-li a.pagebar {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover.pagebar {
-  background-color: #111;
 }
