@@ -44,7 +44,7 @@ td, caption {
   text-align: center;
 }
 
-.pagebar-new {
+ul.pagebar-new {
   list-style-type: none;
   color: white;
   margin: 0;
