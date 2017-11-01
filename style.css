@@ -27,7 +27,8 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, c
   border: 4px black solid;
   padding: 30px;
   font-size: 120%;
-  font-style: uppercase bold;
+  font-style: bold;
+  text-transform: uppercase;
   background-image: url("/images/holy-spirit-sky-banner.jpg");
 }
 
@@ -39,4 +40,10 @@ table, th, td {
 
 td, caption {
   text-align: center;
+}
+
+.table-pagebar {
+  border-bottom: 2px black solid
+  padding-bottm: 10px;
+  font-size: 10px;
 }
