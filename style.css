@@ -20,6 +20,8 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, c
   margin: 10px 40px;
 }
 
+img {margin: 10px 40px 0px 10px;}
+
 .pagebar {
   margin: 30px 40px 20px 40px;
 }
