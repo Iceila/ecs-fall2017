@@ -59,4 +59,9 @@ td, caption {
 
 .active {
   background-color: #33ACFF;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
