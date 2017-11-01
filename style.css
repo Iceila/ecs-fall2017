@@ -16,7 +16,7 @@ p, ol, ul, blockquote, bdo, table, caption, a {
   font-size: '12px';
 }
 
-p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, caption {
+p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, caption, img {
   margin: 10px 40px;
 }
 
