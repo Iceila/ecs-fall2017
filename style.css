@@ -43,7 +43,9 @@ td, caption {
 }
 
 .table-pagebar {
-  border-bottom: 2px black solid !important
-  padding-bottm: 10px;
+  background-color: black;
+  padding-bottom: 10px;
   font-size: 10px;
+  text-align: left;
+  color: white;
 }
