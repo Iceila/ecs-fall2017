@@ -43,6 +43,7 @@ td, caption {
 
 .table-pagebar {
   list-style-type: none;
+  color: white;
   margin: 0;
   padding: 0;
   display: inline;
