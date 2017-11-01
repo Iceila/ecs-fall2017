@@ -7,11 +7,6 @@ a {
   text-decoration:none
 }
 
-.pagebar {
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -48,21 +43,26 @@ td, caption {
   text-align: center;
 }
 
-.pagebar-new {
+ul.pagebar {
   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-a:hover.pagebar-new {background-color: #111;}
+li.pagebar {
+  float: left;
+}
 
-.active {
-  background-color: #33ACFF;
+li a.pagebar {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover.pagebar {
+  background-color: #111;
 }
