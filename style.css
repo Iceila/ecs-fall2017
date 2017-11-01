@@ -36,4 +36,5 @@ table, th, td {
 }
 
 td {text-align: center;}
-.li-exercise {display:inline; padding:0px; margin:0px; overflow:hidden;}
+.li-exercise {float:left; padding:16px; display:block}
+
