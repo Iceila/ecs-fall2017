@@ -49,6 +49,7 @@ ul.pagebar {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  display: inline;
 }
 
 li.pagebar {
