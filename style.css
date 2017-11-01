@@ -43,6 +43,7 @@ td, caption {
 }
 
 .table-pagebar {
+  border: 0px;
   border-bottom: 2px black solid;
   padding-bottom: 10px;
   font-size: 12px;
