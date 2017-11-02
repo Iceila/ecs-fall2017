@@ -25,6 +25,7 @@ ul.navigation {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 14px 16px;
 }
 
 li.navigation {
@@ -33,7 +34,7 @@ li.navigation {
 
 a.navigation {
   display: block;
-  padding: 8px;
+  padding: 14px 16px;
   background-color: #333;
 }
 
