@@ -34,18 +34,18 @@ li.navigation {
 
 a.navigation {
   display: block;
-  padding: 14px 16px;
+  padding: 10px 12px;
   background-color: #333;
 }
 
 a.active {
   background-color: #336EFF;
   display: block;
+  padding: 10px 12px;
 }
 
 li.navigation a.navigation:hover:not(.active) {
   background-color: #111;
   display: block;
   text-align: center;
-  padding: 14px 16px;
 }
