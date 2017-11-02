@@ -24,7 +24,7 @@ ul.navigation {
     background-color: #333;
     position: fixed;
     top: 0;
-    width: max-content;
+    width: 100%;
 }
 
 li.navigation {
