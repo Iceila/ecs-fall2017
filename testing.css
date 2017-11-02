@@ -20,22 +20,25 @@ ul.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li.navigation {
-    float: left;
+  float: left;
 }
 
 a.navigation {
-    display: block;
-    padding: 8px;
-    background-color: #333;
+  display: block;
+  padding: 8px;
+  background-color: #333;
 }
 
 .active {
-    background-color: #336EFF;
+  background-color: #336EFF;
 }
 
 li.navigation a.navigation:hover {
-    background-color: #111;
+  background-color: #111;
 }
