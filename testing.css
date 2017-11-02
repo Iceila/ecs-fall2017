@@ -36,6 +36,6 @@ a.navigation {
     background-color: #336EFF;
 }
 
-a.navigation:hover {
+li.navigation a.navigation:hover {
     background-color: #111;
 }
