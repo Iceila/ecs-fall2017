@@ -5,3 +5,16 @@ p {
 body {
   margin: 30px;
 }
+
+h1 {
+  color:blue;
+  font-family: Verdana;
+}
+
+#id1 {
+  text-align: center;
+}
+
+.class1 {
+  font-family: Georgia;
+}
