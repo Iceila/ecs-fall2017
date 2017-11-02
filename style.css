@@ -20,10 +20,6 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, c
   margin: 10px 40px
 }
 
-.pagebar {
-  margin: 20px 40px 10px;
-}
-
 .background-exercises {
   border: 4px black solid;
   padding: 30px;
@@ -31,14 +27,4 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, c
   font-style: bold;
   text-transform: uppercase;
   background-image: url("/images/holy-spirit-sky-banner.jpg");
-}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
-}
-
-td {
-  text-align: center;
 }
