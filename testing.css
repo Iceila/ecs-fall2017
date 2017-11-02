@@ -39,6 +39,7 @@ a.navigation {
 
 a.active {
   background-color: #336EFF;
+  display: block;
 }
 
 li.navigation a.navigation:hover:not(.active) {
