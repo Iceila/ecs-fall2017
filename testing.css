@@ -17,33 +17,32 @@ p, ol, ul, blockquote, bdo, table, caption, a {
 }
 
 ul.navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 14px 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li.navigation {
-  float: left;
+    float: left;
 }
 
 a.navigation {
-  display: block;
-  background-color: #333;
-  padding: 14px 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-a.active {
-  background-color: #336EFF;
+li.navigation a:hover:not(.active) {
+    background-color: #111;
 }
 
-li.navigation a.navigation:hover:not(.active) {
-  background-color: #111;
-  display: block;
-  text-align: center;
+.active {
+    background-color: #336EFF;
 }
