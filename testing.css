@@ -41,7 +41,7 @@ a.active {
   background-color: #336EFF;
 }
 
-li.navigation a.navigation:hover {
+li.navigation a.navigation:hover:not(.active) {
   background-color: #111;
   display: block;
   text-align: center;
