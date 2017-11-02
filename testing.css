@@ -29,5 +29,13 @@ li.navigation {
 a.navigation {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #333;
+}
+
+.active {
+    background-color: #336EFF;
+}
+
+a.navigation:hover {
+    background-color: #111;
 }
