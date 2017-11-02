@@ -21,3 +21,13 @@ ul.navigation {
   margin: 0;
   padding: 0;
 }
+
+li.navigation {
+    float: left;
+}
+
+a.navigation {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
