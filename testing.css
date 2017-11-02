@@ -35,12 +35,12 @@ li.navigation {
 a.navigation {
   display: block;
   background-color: #333;
+  padding: 14px 16px;
 }
 
 a.active {
   background-color: #336EFF;
   display: block;
-  padding: 10px 12px;
 }
 
 li.navigation a.navigation:hover:not(.active) {
