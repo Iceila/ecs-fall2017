@@ -18,3 +18,16 @@ h1 {
 .class1 {
   font-family: Georgia;
 }
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+.class-example {
+  font-style: italic; 
+}
+
+#id-example {
+  text-decoration: underline;
+}
