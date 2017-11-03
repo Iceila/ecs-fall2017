@@ -16,19 +16,25 @@
       text-decoration: underline;
     }
 
-      table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding: 10px;
-      }
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
 
-      table{
-        width: 100%;
-      }
+    table {
+      width: 100%;
+    }
 
-      td {
-        text-align: center;
-      }
+    td {
+      text-align: center;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
   </style>
 </head>
 
@@ -58,9 +64,27 @@
     </tr>
     <tr>
       <td><a href="#boilerplate-code">Boilerplate Code</a></td>
-      <td>&lt;!DOCTYPE  html>, &lt;html>, &lt;head>, &lt;body></td>
-      <td>&lt;/html>, &lt;/head>, &lt;/body></td>
+      <td>&lt;!DOCTYPE html> &lt;html> &lt;head> &lt;body></td>
+      <td>&lt;/html> &lt;/head> &lt;/body></td>
       <td>See syntax example below.</td>
+    </tr>
+    <tr>
+      <td>&lt;Body Commands</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Headings</td>
+      <td>&lt;h1> &lt;h2> &lt;h3> &lt;h4> &lt;h5> &lt;h6></td>
+      <td>&lt;/h1> &lt;/h2> &lt;/h3> &lt;/h4> &lt;/h5> &lt;/h6></td>
+      <td><code>&lt;h1>This is a heading&lt;/h1></code></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
 
   </table>
@@ -132,7 +156,7 @@
       <p>Other attributes that you can add to the <code>img</code> tag are the <code>alt</code> attribute, which makes text show up if the image does not load. In this case, it is "Russet Potatoes". The <code>width</code> and <code>height</code> attributes
         allow you to resize the image on your website.</p>
 
-      <h4 id="lists">Lists &lt;ol>&lt;</ol>, &lt;ul>&lt;/ul>, &lt;li>&lt;/li></h4>
+      <h4 id="lists">Lists &lt;ol>&lt;/ol>, &lt;ul>&lt;/ul>, &lt;li>&lt;/li></h4>
       <p>HTML also offers the feature of lists. It automatically formats whatever you put so it looks like a list. If you make a navigation bar, you need a list. If you're just putting a bunch of links on your webpage, lists are good for organizing those
         links. There are two types of lists. <code>&lt;ol></code> and <code>&lt;ul></code>. Ordered lists have numbers as their default list type. Unordered lists have a black circle, or bullet as their default list type. The <code>&lt;li></code> tag
         separates each list item.<br><br>This is an ordered list:</p>
@@ -209,7 +233,8 @@
       </table>
 
       <h4 id="blocks">Blocks &lt;div>&lt;/div></h4>
-      <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about the <code>&lt;div></code> tag. Block tags let you style within the HTML document, or set it aside and style in CSS.</p>
+      <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about
+        the <code>&lt;div></code> tag. Block tags let you style within the HTML document, or set it aside and style in CSS.</p>
 
       <pre>
         <code>
@@ -226,7 +251,9 @@
 
       <div style="background-color:powderblue">
         <h1>Hello World</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur
+          a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat
+          nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.</p>
       </div>
 
 </body>
