@@ -198,8 +198,25 @@
       </table>
 
       <h4 id="blocks">Blocks &lt;div>&lt;/div></h4>
-      <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about
-        the <code>&lt;div></code> tag.</p>
+      <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about the <code>&lt;div></code> tag. Block tags let you style within the HTML document, or set it aside and style in CSS.</p>
+
+      <pre>
+        <code>
+          &lt;div>
+            &lt;h1>Hello World&lt;/h1>
+            &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.&lt;/p>
+          &lt;/div>
+        </code>
+      </pre>
+
+      <p>Now on its own, it's unremarkable. It just adds another line of code to your document. But now, you can style everything inside that div:</p>
+      <code>&lt;div style="background-color:powderblue"></code>
+      <p>Let's look at the differences!</p>
+
+      <div style="background-color:powderblue">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.</p>
+      </div>
 
 </body>
 
