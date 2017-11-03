@@ -32,3 +32,9 @@ p, h1, h2, h3, h4, h5, h6, ol, ul, blockquote, ol, ul, blockquote, bdo, table, c
   text-transform: uppercase;
   background-image: url("/images/holy-spirit-sky-banner.jpg");
 }
+
+pre code {
+  background-color: #eee;
+  display: block;
+  padding: 20px;
+}
