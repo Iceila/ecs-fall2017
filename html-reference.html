@@ -52,10 +52,10 @@
 
   <p>
     <code>&lt;!DOCTYPE html></code> tells your HTML file that you'll be using HTML on this document.<br><br>
-    <code>&lt;html></code> is the place you'll put all your HTML code in.<br><br>
-    <code>&lt;head></code> is where all the elements that don't show up direcly on the page go.<br><br>
-    <code>&lt;title></code> is one example of such an element. This page's title is HTML Reference.<br><br>
-    <code>&lt;body></code> is where you find all the code that makes up the actual webpage.<br><br>
+    <code>&lt;html>&lt;/html></code> is the place you'll put all your HTML code in.<br><br>
+    <code>&lt;head>&lt;/head></code> is where all the elements that don't show up direcly on the page go.<br><br>
+    <code>&lt;title>&lt;/title</code> is one example of such an element. This page's title is HTML Reference.<br><br>
+    <code>&lt;body>&lt;/body></code> is where you find all the code that makes up the actual webpage.<br><br>
   </p>
 
   <hr>
@@ -63,15 +63,15 @@
   <h3>&lt;body> Commands</h3>
   <p>All these commands allow you to add information to your site.</p>
 
-  <h5>Headings &lt;h1></h5>
+  <h5>Headings &lt;h1>&lt;/h1></h5>
   <p>The <code>&lt;h1></code> automatically format your text on your web page to be more noticable than a paragraph, by increasing the font size and bolding it. The text on the top of the page is an example of &lt;h1>. There are six heading styles, each one progressively smaller than the last heading.</p><br>
   <code>&lt;h1>This is a heading&lt;/h1></code>
 
-  <h5>Paragraphs &lt;p></h5>
-  <p>This is a paragraph. Everything that's got normal text is a normal paragraph. Paragraphs have no font style, unless you <b>bold</b> the text on your own. Other ways you can style a paragraph is by <i>italicizing</i> or <u>underlining</u>.</p><br>
-  <code>&lt;p>This is a paragraph!&lt;/p></code>
+  <h5>Paragraphs &lt;p>&lt;/p></h5>
+  <p>This is a paragraph. Everything that's got normal text is a normal paragraph. Paragraphs have no font style, unless you <b>bold</b> the text on your own. Other ways you can style a paragraph is by <i>italicizing</i> or <u>underlining</u>.</p>  <code>&lt;p>This is a paragraph!&lt;/p></code>
+  <p>This is a paragraph!</p><br>
   
-  <p><code>&lt;br></code> is another way to edit paragraph styles. It indents a line from the previous block of information.<br>This line is indented with the <code>&lt;br></code> command.</p><br><br>
+  <p><code>&lt;br></code> is another way to edit paragraph styles. It indents a line from the previous block of information.<br><br><u>This line is indented with the <code>&lt;br></code> command.</u></p><br><br>
   
   <p>The <code>&lt;hr></code> command inserts a horizontal line across the page. You can use this to separate blocks of information. The line looks like so:<br><p>
   <hr>
@@ -79,11 +79,16 @@
   <h5>Comments &lt;!-- --></h5>
   <p>When you're coding, you'll often find you need to remind yourself of something, whether it's to fix a certain issue or to give a coworker clarificaiton. Comments are lines of code that the rendering software ignores, and is only visible in your source code. HTML codes are specified as so:<br><br><code>&lt;!-- This is a comment! --></code></p>
   
-  <h5>Links &lt;a></h5>
-  <p>This tag is also known as the anchor element. Adding the <code>href</code> attribute makes it linkable. You can link text, images, or just about anything you want in HTML. This is the syntax of the anchor tag:<br>
-    <code>&lt;a href="#link">This is a link&lt;/a></code><br>You put the URL or local link in between the quotations. </p>
+  <h5>Links &lt;a href="">&lt;/a></h5>
+  <p>This tag is also known as the anchor element. Adding the <code>href</code> attribute makes it linkable. You can link text, images, or just about anything you want in HTML. This is the syntax of the anchor tag:</p>
+    <code>&lt;a href="index.html">This is a link to my homepage&lt;/a></code><br>
+  <p>You put the URL or local link in between the quotations. <a href="index.html">This is a link to my homepage</a>.</p>
   
-
+  <h5>Images &lt;img src=""></h5>
+  <p>To embed images into the page using HTML, we use the <code>&lt;img></code> tag. The basics you need for an image tag is the tag itself and the <code>src</code> or source attribute. The source can be from inside your website or a URL from another website.</p>
+  <code>&lt;img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"></code>
+  <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1">
+  
 </body>
 
 </html>
