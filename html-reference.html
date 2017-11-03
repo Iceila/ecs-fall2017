@@ -90,7 +90,7 @@
   <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"><br>
   <p>Other attributes that you can add to the <code>img</code> tag are the <code>alt</code> attribute, which makes text show up if the image does not load. In this case, it is "Russet Potatoes". The <code>width</code> and <code>height</code> attributes allow you to resize the image on your website.</p>
   
-  <h5>Lists &lt;ol>&lt;</ol>, &lt;ul>&lt;/ul>, &lt;<li>&lt;/li></h5>
+  <h5>Lists &lt;ol>&lt;</ol>, &lt;ul>&lt;/ul>, &lt;li>&lt;/li></h5>
   <p>HTML also offers the feature of lists. It automatically formats whatever you put so it looks like a list. There are two types of lists. <code>&lt;ol></code> and <code>&lt;ul></code>. Ordered lists have numbers as their default list type. Unordered lists have a black circle, or bullet as their default list type. The <code>&lt;li></code> tag separates each list item.<br><br>This is an ordered list:</p>
   
   <pre>
@@ -99,7 +99,7 @@
     &lt;li>This is list item number one.&lt;/li>
     &lt;li>This is list item number two.&lt;/li>
     &lt;li>This is list item number three.&lt;/li>
-  &lt;/0l>
+  &lt;/ol>
   </code>
   </pre>
   
@@ -126,6 +126,26 @@
     <li>This is list item number three.</li>
   </ul>
   
+  <h5>Tables &lt;table>&lt;</table>, &lt;tr>&lt;/tr>, &lt;th>&lt;/th, &lt;td>&lt;/td></h5>
+  <p>Another way to represent information is by table. The four commands above are needed to create a table. The code for a table is nested in the <code>&lt;table></code> element. <code>&lt;tr></code> makes a new table row. Table headers are defined by the <code>&lt;th></code> tag. Finally, the <code>&lt;td></code> allows you to make a description for your table. All the elements together to make a table look something like this:</p>
+
+  <pre>
+  <code>
+  &lt;table>
+    <tr>
+      &lt;th>Heading 1&lt;/th>
+      &lt;th>Heading 2&lt;/th>
+      &lt;th>Heading 3&lt;/th>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>Description 1&lt;/td>
+      &lt;td>Description 2&lt;/td>
+      &lt;td>Description 3&lt;/td>
+    &lt;/tr>
+  &lt;/table>
+  </code>
+  </pre>
+
 </body>
 
 </html>
