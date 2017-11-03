@@ -54,7 +54,7 @@
     <code>&lt;!DOCTYPE html></code> tells your HTML file that you'll be using HTML on this document.<br><br>
     <code>&lt;html>&lt;/html></code> is the place you'll put all your HTML code in.<br><br>
     <code>&lt;head>&lt;/head></code> is where all the elements that don't show up direcly on the page go.<br><br>
-    <code>&lt;title>&lt;/title</code> is one example of such an element. This page's title is HTML Reference.<br><br>
+    <code>&lt;title>&lt;/title></code> is one example of such an element. This page's title is HTML Reference.<br><br>
     <code>&lt;body>&lt;/body></code> is where you find all the code that makes up the actual webpage.<br><br>
   </p>
 
@@ -71,7 +71,7 @@
   <p>This is a paragraph. Everything that's got normal text is a normal paragraph. Paragraphs have no font style, unless you <b>bold</b> the text on your own. Other ways you can style a paragraph is by <i>italicizing</i> or <u>underlining</u>.</p>  <code>&lt;p>This is a paragraph!&lt;/p></code>
   <p>This is a paragraph!</p><br>
   
-  <p><code>&lt;br></code> is another way to edit paragraph styles. It indents a line from the previous block of information.<br><br><u>This line is indented with the <code>&lt;br></code> command.</u></p><br><br>
+  <p><code>&lt;br></code> is another way to edit paragraph styles. It indents a line from the previous block of information.<br><br><u>This line is indented with the <code>&lt;br></code> command.</u></p><br>
   
   <p>The <code>&lt;hr></code> command inserts a horizontal line across the page. You can use this to separate blocks of information. The line looks like so:<br><p>
   <hr>
@@ -86,8 +86,45 @@
   
   <h5>Images &lt;img src=""></h5>
   <p>To embed images into the page using HTML, we use the <code>&lt;img></code> tag. The basics you need for an image tag is the tag itself and the <code>src</code> or source attribute. The source can be from inside your website or a URL from another website.</p>
-  <code>&lt;img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"></code>
-  <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1">
+  <code>&lt;img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"></code><br>
+  <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"><br>
+  <p>Other attributes that you can add to the <code>img</code> tag are the <code>alt</code> attribute, which makes text show up if the image does not load. In this case, it is "Russet Potatoes". The <code>width</code> and <code>height</code> attributes allow you to resize the image on your website.</p>
+  
+  <h5>Lists &lt;ol>&lt;</ol>, &lt;ul>&lt;/ul>, &lt;<li>&lt;/li></h5>
+  <p>HTML also offers the feature of lists. It automatically formats whatever you put so it looks like a list. There are two types of lists. <code>&lt;ol></code> and <code>&lt;ul></code>. Ordered lists have numbers as their default list type. Unordered lists have a black circle, or bullet as their default list type. The <code>&lt;li></code> tag separates each list item.<br><br>This is an ordered list:</p>
+  
+  <pre>
+  <code>
+  <ul>
+    <li>This is list item number one.</li>
+    <li>This is list item number two.</li>
+    <li>This is list item number three.</li>
+  </ul>
+  </code>
+  </pre>
+  
+    <ul>
+    <li>This is list item number one.</li>
+    <li>This is list item number two.</li>
+    <li>This is list item number three.</li>
+  </ul><br>
+  
+  <p>This is an unordered list:</p>
+    <pre>
+  <code>
+  <ol>
+    <li>This is list item number one.</li>
+    <li>This is list item number two.</li>
+    <li>This is list item number three.</li>
+  </ol>
+  </code>
+  </pre>
+  
+    <ol>
+    <li>This is list item number one.</li>
+    <li>This is list item number two.</li>
+    <li>This is list item number three.</li>
+  </ol>
   
 </body>
 
