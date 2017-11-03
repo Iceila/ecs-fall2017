@@ -2,10 +2,6 @@ p.class {
   color: red;
 }
 
-body {
-  margin: 30px;
-}
-
 h1 {
   color:blue;
   font-family: Verdana;
@@ -25,7 +21,7 @@ span {
 }
 
 .class-example {
-  font-style: italic; 
+  font-style: italic;
 }
 
 #id-example {
