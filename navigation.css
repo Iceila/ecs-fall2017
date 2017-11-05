@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
 a {
   color: black;
   font-style: normal;
@@ -8,6 +11,8 @@ a.navigation {
   color: white;
   font-style: normal;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: '12px';
 }
 
 ul.navigation {
