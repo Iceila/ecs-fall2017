@@ -4,32 +4,7 @@
 <head>
   <title>HTML Reference</title>
   <link href="navigation.css" type="text/css" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Raleway');
-    a.navigation {
-      font-family: 'Raleway', sans-serif;
-      font-size: '12px';
-    }
-    a {
-      text-decoration: underline;
-    }
-    table,
-    th,
-    td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 10px;
-    }
-    table {
-      width: 100%;
-    }
-    td {
-      text-align: center;
-    }
-    pre {
-      white-space: pre-wrap;
-    }
-  </style>
+  <link href="html-reference.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +23,7 @@
   <p>This entire website is coded in HTML. But if you don't know HTML, you can't figure out how this website is made. For my own reference and yours, these are the basics of HTML.</p>
 
   <h2>Directory</h2>
-  <table>
+  <table class="diref">
 
     <tr>
       <th>Name</th>
@@ -121,7 +96,7 @@
   <br>
 
   <h2 id="boilerplate-code">Boilerplate Code</h2> 
-    <a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a>
+    <a class="w3-link" href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a>
   <p>The code below is the standard code needed to make anything related to HTML. It should be the first thing you type or paste into your HTML file.</p>
   <pre>
   <code>
@@ -158,14 +133,14 @@
   <p>All these commands allow you to add information to your site.</p>
 
   <h4 id="headings">Headings &lt;h1>&lt;/h1></h4>
-  <a href="https://www.w3schools.com/html/html_headings.asp">https://www.w3schools.com/html/html_headings.asp</a>
+  <a class="w3-link" href="https://www.w3schools.com/html/html_headings.asp">https://www.w3schools.com/html/html_headings.asp</a>
   <p>The <code>&lt;h1></code> automatically format your text on your web page to be more noticable than a paragraph, by increasing the font size and bolding it. The text on the top of the page is an example of &lt;h1>. There are six heading styles, each
     one progressively smaller than the last heading.</p>
   <code>&lt;h1>This is a heading&lt;/h1></code><br>
 
   <h4 id="paragraphs">Paragraphs &lt;p>&lt;/p></h4>
-    <a href="https://www.w3schools.com/html/html_paragraphs.asp">https://www.w3schools.com/html/html_paragraphs.asp</a>
-  <p>This is a paragraph. Everything that's got normal text is a normal paragraph. Paragraphs have no font style, unless you <b>bold</b> the text on your own. Other ways you can style a paragraph is by <i>italicizing</i> or <u>underlining</u>.</p> <code>&lt;p>This is a paragraph!&lt;/p></code>
+    <a class="w3-link" href="https://www.w3schools.com/html/html_paragraphs.asp">https://www.w3schools.com/html/html_paragraphs.asp</a>
+  <p>This is a paragraph. Everything that's got normal text is a normal paragraph. Paragraphs have no font style, unless you <b>bold</b> the text on your own. Other ways you can style a paragraph is by <i>italicizing</i> or <u>underlining</u>.</p> <pre><code>&lt;p>This is a paragraph!&lt;/p></code></pre>
   <p>This is a paragraph!</p><br>
 
   <p><code>&lt;br></code> is another way to edit paragraph styles. It indents a line from the previous block of information.<br><br><u>This line is indented with the <code>&lt;br></code> command.</u></p><br>
@@ -176,28 +151,29 @@
 
       <h4 id="comments">Comments &lt;!-- --></h4>
       
-      <a href="https://www.w3schools.com/html/html_comments.asp">https://www.w3schools.com/html/html_comments.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_comments.asp">https://www.w3schools.com/html/html_comments.asp</a>
           
       <p>When you're coding, you'll often find you need to remind yourself of something, whether it's to fix a certain issue or to give a coworker clarificaiton. Comments are lines of code that the rendering software ignores, and is only visible in your
-        source code. HTML codes are specified as so:<br><br><code>&lt;!-- This is a comment! --></code></p><br>
+        source code. HTML codes are specified as so:<br><br>
+        <pre><code>&lt;!-- This is a comment! --></code></pre></p><br>
 
       <h4 id="links">Links &lt;a href="">&lt;/a></h4>
-      <a href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com/html/html_links.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com/html/html_links.asp</a>
       <p>This tag is also known as the anchor element. Adding the <code>href</code> attribute makes it linkable. You can link text, images, or just about anything you want in HTML. Navigation bars at the top of a webpage are made with links. This is the
         syntax of the anchor tag:</p>
       <code>&lt;a href="index.html">This is a link to my homepage&lt;/a></code><br>
       <p>You put the URL or local link in between the quotations. <a href="index.html">This is a link to my homepage</a>.</p><br>
 
       <h4 id="images">Images &lt;img src=""></h4>
-      <a href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
       <p>To embed images into the page using HTML, we use the <code>&lt;img></code> tag. If you want some visuals to break up the text on your website, images can help you do that. The basics you need for an image tag is the tag itself and the <code>src</code>        or source attribute. The source can be from inside your website or a URL from another website.</p>
-      <code>&lt;img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"></code><br>
+      <pre><code>&lt;img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"></code></pre><br>
       <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"><br>
       <p>Other attributes that you can add to the <code>img</code> tag are the <code>alt</code> attribute, which makes text show up if the image does not load. In this case, it is "Russet Potatoes". The <code>width</code> and <code>height</code> attributes
         allow you to resize the image on your website.</p><br>
 
       <h4 id="lists">Lists &lt;ol>&lt;/ol>, &lt;ul>&lt;/ul>, &lt;li>&lt;/li></h4>
-      <a href="https://www.w3schools.com/html/html_lists.asp">https://www.w3schools.com/html/html_lists.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_lists.asp">https://www.w3schools.com/html/html_lists.asp</a>
       <p>HTML also offers the feature of lists. It automatically formats whatever you put so it looks like a list. If you make a navigation bar, you need a list. If you're just putting a bunch of links on your webpage, lists are good for organizing those
         links. There are two types of lists. <code>&lt;ol></code> and <code>&lt;ul></code>. Ordered lists have numbers as their default list type. Unordered lists have a black circle, or bullet as their default list type. The <code>&lt;li></code> tag
         separates each list item.<br><br>This is an ordered list:</p>
@@ -236,7 +212,7 @@
       </ul><br>
 
       <h4 id="tables">Tables &lt;table>&lt;/table>, &lt;tr>&lt;/tr>, &lt;th>&lt;/th, &lt;td>&lt;/td></h4>
-      <a href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>
       <p>Another way to represent information is by table. The four commands above are needed to create a table. Tables are basically lists in a more structured format. You can have multiple columns of information. The code for a table is nested in the <code>&lt;table></code>        element. <code>&lt;tr></code> makes a new table row. Table headers are defined by the <code>&lt;th></code> tag. Finally, the <code>&lt;td></code> allows you to make a description for your table. All the elements together to make a table look something
         like this:</p>
 
@@ -275,24 +251,24 @@
       </table><br>
 
       <h4 id="blocks">Blocks &lt;div>&lt;/div></h4>
-      <a href="https://www.w3schools.com/html/html_blocks.asp">https://www.w3schools.com/html/html_blocks.asp</a>
+      <a class="w3-link" href="https://www.w3schools.com/html/html_blocks.asp">https://www.w3schools.com/html/html_blocks.asp</a>
       <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about
         the <code>&lt;div></code> tag. Block tags let you style within the HTML document, or set it aside and style in CSS.</p>
 
       <pre>
         <code>
-          &lt;div>
-            &lt;h1>Hello World&lt;/h1>
-            &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.&lt;/p>
-          &lt;/div>
+        &lt;div>
+          &lt;h1>Hello World&lt;/h1>
+          &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat nec urna et, varius fermentum massa. Maecenas ultrices fringilla turpis vitae lobortis. Nunc vitae placerat nulla.&lt;/p>
+        &lt;/div>
         </code>
       </pre>
 
       <p>Now on its own, it's unremarkable. It just adds another line of code to your document. But now, you can style everything inside that div:</p>
-      <code>&lt;div style="background-color:powderblue"></code>
+      <pre><code>&lt;div style="background-color:powderblue"></code></pre>
       <p>Let's look at the differences!</p>
 
-      <div style="background-color:powderblue">
+      <div class="blocks">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et venenatis tellus, vitae tincidunt ligula. Nullam ante velit, dictum in posuere ac, ultrices vitae nulla. Mauris sed ultricies nunc. Maecenas mi justo, egestas et mattis vel, efficitur
           a justo. Phasellus quis neque tincidunt, luctus magna posuere, malesuada sem. Quisque tristique consectetur venenatis. Sed vel efficitur neque. Sed eu varius tellus. Nullam vulputate leo ex, at elementum lacus dapibus eget. Sed orci enim, feugiat
