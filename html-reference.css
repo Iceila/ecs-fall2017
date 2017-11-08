@@ -21,7 +21,10 @@ td {
   text-align: center;
 }
 
-
+code {
+  background-color: #F8F8F8;
+  padding: 10px; 
+}
 pre {
   white-space: pre-wrap;
   border-left: 10px solid #FFB9AA;
