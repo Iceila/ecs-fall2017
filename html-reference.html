@@ -22,6 +22,7 @@
   <h1 style="margin-top:80px;">HTML Reference</h1>
   <p>This entire website is coded in HTML. But if you don't know HTML, you can't figure out how this website is made. For my own reference and yours, these are the basics of HTML.</p>
 
+<!-- This is the directory of HTML elements on this webpage -->
   <h2>Directory</h2>
   <table class="diref">
 
@@ -93,7 +94,11 @@
     </tr>
 
   </table>
+<!-- End of directory table -->
+
   <br>
+
+<!-- Standard HTML code beginnings -->
 
   <h2 id="boilerplate-code">Boilerplate Code</h2> 
     <a class="w3-link" href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a>
@@ -128,9 +133,12 @@
   </p>
 
   <hr>
+  
+<!-- Commands used in the body -->
 
   <h2 id="body-commands">&lt;body> Commands</h2>
   <p>All these commands allow you to add information to your site.</p>
+
 
   <h4 id="headings">Headings &lt;h1>&lt;/h1></h4>
   <a class="w3-link" href="https://www.w3schools.com/html/html_headings.asp">https://www.w3schools.com/html/html_headings.asp</a>
@@ -149,6 +157,7 @@
     <p>
       <hr>
 
+
       <h4 id="comments">Comments &lt;!-- --></h4>
       
       <a class="w3-link" href="https://www.w3schools.com/html/html_comments.asp">https://www.w3schools.com/html/html_comments.asp</a>
@@ -157,12 +166,14 @@
         source code. HTML codes are specified as so:<br><br>
         <pre><code>&lt;!-- This is a comment! --></code></pre></p><br>
 
+
       <h4 id="links">Links &lt;a href="">&lt;/a></h4>
       <a class="w3-link" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com/html/html_links.asp</a>
       <p>This tag is also known as the anchor element. Adding the <code>href</code> attribute makes it linkable. You can link text, images, or just about anything you want in HTML. Navigation bars at the top of a webpage are made with links. This is the
         syntax of the anchor tag:</p>
       <pre><code>&lt;a href="index.html">This is a link to my homepage&lt;/a></code><br></pre>
       <p>You put the URL or local link in between the quotations. <a href="index.html">This is a link to my homepage</a>.</p><br>
+
 
       <h4 id="images">Images &lt;img src=""></h4>
       <a class="w3-link" href="https://www.w3schools.com/html/html_images.asp">https://www.w3schools.com/html/html_images.asp</a>
@@ -171,6 +182,7 @@
       <img src="/images/Russet_potato_cultivar_with_sprouts.jpg" alt="Russet Potatoes" width="437.8" height="221.1"><br>
       <p>Other attributes that you can add to the <code>img</code> tag are the <code>alt</code> attribute, which makes text show up if the image does not load. In this case, it is "Russet Potatoes". The <code>width</code> and <code>height</code> attributes
         allow you to resize the image on your website.</p><br>
+
 
       <h4 id="lists">Lists &lt;ol>&lt;/ol>, &lt;ul>&lt;/ul>, &lt;li>&lt;/li></h4>
       <a class="w3-link" href="https://www.w3schools.com/html/html_lists.asp">https://www.w3schools.com/html/html_lists.asp</a>
@@ -211,6 +223,7 @@
         <li>This is list item number three.</li>
       </ul><br>
 
+
       <h4 id="tables">Tables &lt;table>&lt;/table>, &lt;tr>&lt;/tr>, &lt;th>&lt;/th, &lt;td>&lt;/td></h4>
       <a class="w3-link" href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>
       <p>Another way to represent information is by table. The four commands above are needed to create a table. Tables are basically lists in a more structured format. You can have multiple columns of information. The code for a table is nested in the <code>&lt;table></code>        element. <code>&lt;tr></code> makes a new table row. Table headers are defined by the <code>&lt;th></code> tag. Finally, the <code>&lt;td></code> allows you to make a description for your table. All the elements together to make a table look something
@@ -250,6 +263,7 @@
 
       </table><br>
 
+
       <h4 id="blocks">Blocks &lt;div>&lt;/div></h4>
       <a class="w3-link" href="https://www.w3schools.com/html/html_blocks.asp">https://www.w3schools.com/html/html_blocks.asp</a>
       <p>Out of all of HTML's features, blocks might seem the most redundant. All it does is add some extra piece of code that doesn't show up on the browser. So why is it there?<br><br>Blocks let you separate pieces of code from others. We'll talk about
@@ -267,6 +281,7 @@
       <p>Now on its own, it's unremarkable. It just adds another line of code to your document. But now, you can style everything inside that div:</p>
       <pre><code>&lt;div style="background-color:powderblue"></code></pre>
       <p>Let's look at the differences!</p>
+
 
       <div class="blocks">
         <h1>Hello World</h1>
