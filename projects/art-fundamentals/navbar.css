@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway|Alex+Brush');
+
+hr { 
+    height:2px;
+    border-width:0;
+    color: #ffd961;
+    background-color: #ffd961;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+} 
+
+ul {
+  float: right;
+  margin-top: 50px;
+}
+
+li {
+  display: inline;
+  padding: 2px 20px 0px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.resources {
+  border: 2px solid #241eb2;
+  padding: 8px 15px;
+  border-radius: 30px;
+  background-color: #241eb2;
+  color: white;
+  margin-right: 20px;
+}
+
+.navbar {
+  background-image: url("https://wallpaperscraft.com/image/pencil_break_debris_paper_color_17735_1920x1080.jpg");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  color: white;
+  background-color: #434dff;
+  float: left;
+  left: 0;
+  top: 0;
+  margin: 0 0 30px;
+  text-align: center;
+  border: 2px solid #434dff;
+  border-bottom-right-radius: 50px;
+  padding: 0;
+}
+
+.logo-img {
+  margin-left: 0;
+  float: left;
+  padding-left: 10px;
+}
+
+.logo-text {
+  padding-right: 50px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-left: 80px;
+}
+
