@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway|Alex+Brush');
+
+.welcome {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px;
+  padding-right: 40px;
+  margin: 0;
+  border: 2px white solid;
+  background-color: white;
+  float: left;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+}
+
+.heading {
+  text-indent: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin: 100px;
+  margin-right: 500px;
+}
+
+.button {
+  background-color: #241eb2;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+  margin:auto;
+  display:block;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    padding-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+b {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+}
+
+.horace {
+  background-image: url("http://thewallpaper.co/wp-content/uploads/2016/10/Graphic-art-wallpaper-1920x1080-cool-images-amazing-artwork-smart-phones-pictures-mac-desktop-images-samsung-phone-wallpapers-1080p-1920x1058.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Alex Brush', cursive;
+  font-size: 70px;
+  padding: 10px 100px;
+}
+
+.quote-h {
+  font-size: 30px;
+  text-align: right;
+  padding-right: 100px;
+  padding-bottom: 0;
+}
+
+.footer {
+  height: 50px;
+  color: #d79035ff; 
+  background-color: #d79035ff;
+}
