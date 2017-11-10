@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway|Alex+Brush');
 
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 hr { 
     height:2px;
     border-width:0;
+    color: #ffd961;
+    background-color: #ffd961;
+    text-align: center;
     left: 0;
     right: 0;
     width: 100%;
@@ -16,10 +26,7 @@ ul {
 
 li {
   display: inline;
-  padding: 2px 20px 0px;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+  padding: 0px 20px;
 }
 
 .resources {
@@ -29,11 +36,6 @@ li {
   background-color: #241eb2;
   color: white;
   margin-right: 20px;
-}
-
-.navbar {
-  background-image: url("/images/Untitled.jpg");
-  background-repeat: no-repeat;
 }
 
 .logo {
@@ -63,7 +65,7 @@ li {
   padding-left: 80px;
 }
 
-.divider {
-  color: #ffd961; 
-  background-color: #ffd961;
+.active {
+  padding-bottom: 28px;
+  border-bottom: solid 3px #241eb2;
 }

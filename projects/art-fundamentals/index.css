@@ -66,15 +66,20 @@ body {
 b {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
+  font-size: 22px;
 }
 
+
 .horace {
-  background-image: url("/images/art-wallpaper-quote.jpg");
-  background-repeat: no-repeat;
+  background-image: url("http://iceila.github.io/images/art-wallpaper-quote.jpg");
   color: white;
   font-family: 'Alex Brush', cursive;
   font-size: 70px;
   padding: 10px 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quote-h {
@@ -85,12 +90,48 @@ b {
 }
 
 .footer {
-  height: 50px;
-  color: #d79035; 
-  background-color: #d79035;
+  background-color: #241eb2;
+  padding: 50px;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
 }
 
-.div-dark {
-  color: #d79035; 
-  background-color: #d79035;
+.headingtext {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  margin: 80px;
+}
+
+.imagewrap-right {
+  float: right;
+}
+
+.imagewrap-left {
+  float: left;
+}
+
+.challenge {
+  font-weight: 800;
+  color: #241eb2;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
