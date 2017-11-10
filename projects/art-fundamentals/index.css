@@ -43,7 +43,7 @@
 .column {
     float: left;
     width: 33.33%;
-    padding: 80px;
+    padding: 50px 80px;
     padding-bottom: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
