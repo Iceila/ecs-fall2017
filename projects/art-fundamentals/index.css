@@ -38,21 +38,6 @@
   display:block;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 50px;
-    padding-bottom: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -132,4 +117,24 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+table, td {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 50px;
+  width: 33.3%;
+}
+
+.trio-img {
+  text-align: center;
+  padding: 0 20px 20px;
 }
