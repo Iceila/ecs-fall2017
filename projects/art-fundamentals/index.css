@@ -129,9 +129,13 @@ table, td {
   border-collapse: collapse;
 }
 
+th {
+  padding-top: 50px;
+}
+
 td {
-  padding: 50px;
-  width: 33.3%;
+  padding: 0 50px 80px;
+  text-align: left;
 }
 
 .trio-img {
