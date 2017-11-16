@@ -142,3 +142,11 @@ td {
   text-align: center;
   padding: 0 20px 20px;
 }
+
+.resource {
+  border: 3px solid #241eb2;
+  padding: 15px 15px 8px;
+  border-radius: 30px;
+  color: #241eb2;
+  text-align: center;
+}
